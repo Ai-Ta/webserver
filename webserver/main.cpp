@@ -9,10 +9,10 @@
 #include <stdlib.h>
 #include <sys/epoll.h>
 #include <cassert>
-#include "./lock/locker.h"
-#include "./pool/threadpool.h"
-#include "./http/http_conn.h"
-#include "./ls_time/ls_time.h"
+#include "locker.h"
+#include "threadpool.h"
+#include "http_conn.h"
+#include "ls_time.h"
 #include"log/log.h"
 
 #define MAX_FD 65536   // 最大的文件描述符个数
